@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire DOM</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <h3>Vos coordonnées :</h3>
+        <h5 id="adv">* Ces zones sont obligatoires pour envoyer le formulaire</h5>
+    </header>
+    <main id="to">
+        <section id="blu">
+            <article class="text">
+                <p class="desc">Société :</p>
+                <p class="desc">Personne à contacter :</p>
+                <p class="desc">Adresse de l'entreprise :</p>
+                <p class="desc">Code postal :</p>
+                <p class="desc">Ville :</p>
+                <p class="desc">E-mail :</p>
+                <p class="desc">Téléphone :</p>
+                <p class="desc">Selectionnez l'environnement technique du projet :</p>
+                <select id="liste">
+                    <option disabled selected>Choisissez</option>
+                    <option>Acces</option>
+                    <option>Java</option>
+                    <option>Delphi</option>
+                    <option>Windev</option>
+                    <option>Visual Basic</option>
+                    <option>Power Builder</option>
+                    <option>Internet</option>
+                    <option>Intranet</option>
+                    <option>Windows NT</option>
+                    <option>Unix</option>
+                    <option>SQL Server</option>
+                    <option>Oracle</option>
+                    <option>Autres...</option>
+                </select>
+            </article>
+        </section>
+        <section id="inps">
+            <form>
+                <input class="necess zdt" type="" value="">
+                <input class="necess zdt" type="" value="">
+                <textarea class="adress zdt" id="com" value=""></textarea>
+                <input class="necess zdt" type="" value="">
+                <input class="necess zdt" type="" value="">
+                <input class="necess zdt" type="" value="" id="mai">
+                <input class="opt zdt" type="" value="">
+                <input class="opt zdt" type="" value="">
+                <textarea id="envtech" class="opt zdt" value=""></textarea>
+            </form>
+        </section>
+        <section>
+            <p class="asterix">*</p>
+            <p class="asterix">*</p>
+            <br>
+            <p class="asterix">*</p>
+            <p class="asterix">*</p>
+            <p class="asterix">*</p>
+        </section>
+        <br>
+        <br>
+    </main>
+    <footer>
+        <article id="buttons">
+            <button id="send" class="but" type="submit">Envoyer</button>
+            <button id="delete" class="but" type="reset">Effacer</button>
+        </article>
+    </footer>
+    <script src="Script/script.js"></script>
+</body>
+</html>
